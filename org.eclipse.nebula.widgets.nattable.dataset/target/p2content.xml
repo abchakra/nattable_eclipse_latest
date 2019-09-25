@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.eclipse.nebula.widgets.nattable.dataset' version='1.5.0.201909251304' singleton='false'>
+    <update id='org.eclipse.nebula.widgets.nattable.dataset' range='[0.0.0,1.5.0.201909251304)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='NatTable Dataset Utilities (internal usage)'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Eclipse Nebula NatTable'/>
+      <property name='maven-groupId' value='org.eclipse.nebula.widgets.nattable'/>
+      <property name='maven-artifactId' value='org.eclipse.nebula.widgets.nattable.dataset'/>
+      <property name='maven-version' value='1.5.0-SNAPSHOT'/>
+    </properties>
+    <provides size='11'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.nebula.widgets.nattable.dataset' version='1.5.0.201909251304'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.nebula.widgets.nattable.dataset' version='1.5.0.201909251304'/>
+      <provided namespace='java.package' name='org.eclipse.nebula.widgets.nattable.dataset' version='1.4.0'/>
+      <provided namespace='java.package' name='org.eclipse.nebula.widgets.nattable.dataset.car' version='1.5.0'/>
+      <provided namespace='java.package' name='org.eclipse.nebula.widgets.nattable.dataset.fixture.data' version='1.4.0'/>
+      <provided namespace='java.package' name='org.eclipse.nebula.widgets.nattable.dataset.generator' version='1.4.0'/>
+      <provided namespace='java.package' name='org.eclipse.nebula.widgets.nattable.dataset.person' version='1.4.0'/>
+      <provided namespace='java.package' name='org.eclipse.nebula.widgets.nattable.dataset.pricing' version='1.4.0'/>
+      <provided namespace='java.package' name='org.eclipse.nebula.widgets.nattable.dataset.pricing.valuegenerator' version='1.4.0'/>
+      <provided namespace='java.package' name='org.eclipse.nebula.widgets.nattable.dataset.valuegenerator' version='1.4.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.nebula.widgets.nattable.dataset' version='1.5.0.201909251304'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.nebula.widgets.nattable.dataset&#xA;Bundle-Version: 1.5.0.201909251304&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='org.eclipse.nebula.widgets.nattable.dataset.source' version='1.5.0.201909251304' singleton='false'>
+    <update id='org.eclipse.nebula.widgets.nattable.dataset.source' range='[0.0.0,1.5.0.201909251304)' severity='0'/>
+    <properties size='9'>
+      <property name='df_LT.bundleVendor' value='Eclipse Nebula NatTable'/>
+      <property name='df_LT.bundleName' value='NatTable Dataset Utilities (internal usage) Source'/>
+      <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+      <property name='maven-groupId' value='org.eclipse.nebula.widgets.nattable'/>
+      <property name='maven-artifactId' value='org.eclipse.nebula.widgets.nattable.dataset'/>
+      <property name='maven-version' value='1.5.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.nebula.widgets.nattable.dataset.source' version='1.5.0.201909251304'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.nebula.widgets.nattable.dataset.source' version='1.5.0.201909251304'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.nebula.widgets.nattable.dataset.source' version='1.5.0.201909251304'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.nebula.widgets.nattable.dataset.source&#xA;Bundle-Version: 1.5.0.201909251304&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

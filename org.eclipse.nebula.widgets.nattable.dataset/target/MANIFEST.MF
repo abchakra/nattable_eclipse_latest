@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.eclipse.nebula.widgets.nattable.dataset
+Bundle-SymbolicName: org.eclipse.nebula.widgets.nattable.dataset
+Export-Package: org.eclipse.nebula.widgets.nattable.dataset;version="1
+ .4.0",org.eclipse.nebula.widgets.nattable.dataset.car;version="1.5.0"
+ ,org.eclipse.nebula.widgets.nattable.dataset.fixture.data;version="1.
+ 4.0",org.eclipse.nebula.widgets.nattable.dataset.generator;version="1
+ .4.0",org.eclipse.nebula.widgets.nattable.dataset.person;version="1.4
+ .0",org.eclipse.nebula.widgets.nattable.dataset.pricing;version="1.4.
+ 0",org.eclipse.nebula.widgets.nattable.dataset.pricing.valuegenerator
+ ;version="1.4.0",org.eclipse.nebula.widgets.nattable.dataset.valuegen
+ erator;version="1.4.0"
+Bundle-Name: NatTable Dataset Utilities (internal usage)
+Bundle-Version: 1.5.0.201909251304
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: Eclipse Nebula NatTable
+
